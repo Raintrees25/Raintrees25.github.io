@@ -4,10 +4,10 @@ body {
 }
 
 background-image {
-    background-image: url("../pepe.jpg");
+    background-image: url("pepe.jpg");
     background-color: #cccccc;   
     height: 50px;
-    background-repeat: repeat
+    background-repeat: repeat;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
