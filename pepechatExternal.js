@@ -3,7 +3,7 @@
 START = new Date().getTime();
 setTimeout(function() {
 	if (typeof LOADED === "undefined") {
-		var msg = 'Synchtube Premium error! Application hasn\'t been loaded properly, some functions '
+		var msg = 'Pepechat Premium error! Application hasn\'t been loaded properly, some functions '
 			+ 'may not work. If there\'s a problem with media player, try to refresh the page. '
 			+ 'Otherwise, ask channel administrator, or disable script access.';
 		addChatNotification(msg);
@@ -1988,7 +1988,7 @@ $('<li id="my-mentions"></li>').appendTo(ul).html(html);
 var html = '<li><a id="layout-1">Premium Settings</a></li>'
 	 + '<li><a id="layout-3" class="opt"><span class="glyphicon glyphicon-ok"></span>Compact Layout</a></li>'
 	 + '<li><a id="layout-4" class="opt"><span class="glyphicon glyphicon-ok"></span>Single Column Layout</a></li>'
-	 + '<li><a id="layout-5" class="opt"><span class="glyphicon glyphicon-ok"></span>Old Synchtube Layout</a></li>'
+	 + '<li><a id="layout-5" class="opt"><span class="glyphicon glyphicon-ok"></span>Old Pepechat Layout</a></li>'
 	 + '<li><a id="layout-6" class="opt"><span class="glyphicon glyphicon-ok"></span>'
 	 +   'Channel MOTD on Bottom</a></li>'
 	 + '<li class="divider"></li>'
@@ -4884,7 +4884,7 @@ $("#tools-btn").on("click", function() {
 	$("#_c5").html(html);
 
 	html = 'It is possible to customize some basic Premium Settings for your channel.<br /><br />'
-	     + '<div class="panel panel-primary"><div class="panel-heading">Synchtube Premium customization</div>'
+	     + '<div class="panel panel-primary"><div class="panel-heading">Pepechat Premium customization</div>'
 	     +   '<div class="panel-body">1. Open code file and go to <code>BASIC CUSTOMIZATION</code> section.<br />'
 	     +     '2. Change selected variables according to your wishes.<br />'
 	     +     '3. Save .js file to your web hosting (Dropbox, Google Drive, your own server, etc.).<br />'
@@ -5939,7 +5939,7 @@ $('<button id="oekaki-btn" class="btn btn-sm btn-default btn-chatctrl" title="Oe
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// Add Synchtube Premium UI CSS
+// Add Pepechat Premium UI CSS
 
 var css = '.bigtitle {\n'
 	+ '  border-bottom-width:1px !important; border-bottom-left-radius:5px !important;\n'
@@ -6111,7 +6111,7 @@ if (USERTHEME.indexOf('/css/themes') < 0) {
 }
 
 
-// Base64 encoded Synchtube logo
+// Base64 encoded Pepechat logo
 
 var synchlogo = 'url("data:image/png;base64,'
 	      + 'iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAA'
@@ -6512,7 +6512,7 @@ if (WelcomeSoundFileURL != "" && PLAYWELCOME) {
 LOADED = true;
 var time = Math.round(new Date().getTime() - START) / 1000;
 var cust = (CHANNEL.opts.externaljs.indexOf(DROPBOX + "1dyazoq6t7wh808/Premium.js") < 0) ? ' [customized]' : '';
-//addChatNotification('Synchtube Premium v. ' + VERSION + '' + cust + ' activated (in ' + time + ' s.)');
+//addChatNotification('Pepechat Premium v. ' + VERSION + '' + cust + ' activated (in ' + time + ' s.)');
 
 
 // Admin notifications
@@ -6530,7 +6530,7 @@ if (CLIENT.rank > 2) {
 			var arr = VERSION.split(".");
 			var ver = arr[0] + "." + arr[1];
 			if (typeof CURRENT_VERSION !== "undefined" && ver != CURRENT_VERSION) {
-				var html = 'Version <b>' + CURRENT_VERSION + '</b> of Synchtube Premium '
+				var html = 'Version <b>' + CURRENT_VERSION + '</b> of Pepechat Premium '
 					 + 'is now available. It is recommended to update your custom script.';
 				addChatNotification(html);
 			}
@@ -6576,7 +6576,7 @@ if (EMOTESCACHE) {
 
 if (ExternalScriptURL != "") $.getScript(ExternalScriptURL);
 
-/* End of Synchtube Premium API */
+/* End of Pepechat Premium API */
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
